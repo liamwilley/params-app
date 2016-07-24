@@ -1,0 +1,12 @@
+<%= form_tag '/form_result_guessing_game', method: :post do %>
+
+  <div>
+    <%= label_tag :number, "Enter a number"%>
+    <%= text_field_tag :number%>
+  </div>
+  <div>
+    <%= submit_tag "Send" %>
+  </div>
+
+
+  <% end %>
